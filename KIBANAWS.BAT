@@ -31,8 +31,6 @@ echo.
 
 if not exist %KIBANALOGDIR% mkdir %KIBANALOGDIR%
 
-if not exist %KIBANALOGDIR% mkdir %KIBANALOGDIR%
-
 for /F "tokens=3 delims=: " %%H in ('sc query "Kibana" ^| findstr "        STATE"') do (
   if /I "%%H" == "RUNNING" (
    GOTO UPGRADE_KIBANA_STOP
