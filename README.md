@@ -31,4 +31,4 @@ KIBANAWS.BAT
 ### Using all custom values
 KIBANAWS.bat KIBANAVER#5.5.2 KIBANALOGDIR#D:\MyLogs\Kibana KIBANAINSTALLDIR#"D:\Program Files\kibana-5.5.2-windows-x86" NSSMDIR#D:\apps\nssm-2.24\win64
 
-Thanks to LeeDr (https://github.com/LeeDr) for his suggestions to use NSSM.
+Thanks to @LeeDr (https://github.com/LeeDr) for his suggestions to use NSSM.
